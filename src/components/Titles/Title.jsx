@@ -12,7 +12,7 @@ const Title = ({title, categoria}) => {
     method: 'GET',
     headers: {
       accept: 'application/json',
-      Authorization: 'Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI2MDc3ZDFjOTc0ZjBlNTEzZWJlMDY5YzZmNTg4MzM0NiIsIm5iZiI6MTczMDYyNDg1OS4zODY0NjY1LCJzdWIiOiI2NzI3M2M3MWMwYmMwNzQ5ZDBkODhmN2UiLCJzY29wZXMiOlsiYXBpX3JlYWQiXSwidmVyc2lvbiI6MX0.WP5vuJnlaQKH0irqLs0A1_Xe00jebevnLkPIOh9H6Qs'
+      Authorization: 'Bearer ---------------'
     }
   };
 

@@ -4,13 +4,13 @@ import { addDoc, collection, getFirestore } from "firebase/firestore";
 import { toast } from "react-toastify";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyD53YtO4-L4Z5f-69cG0bCd1wt-Uuypnx0",
-  authDomain: "projeto-netflix-99620.firebaseapp.com",
-  projectId: "projeto-netflix-99620",
-  storageBucket: "projeto-netflix-99620.firebasestorage.app",
-  messagingSenderId: "82055368573",
-  appId: "1:82055368573:web:ae34593f51de48ad740614",
-  measurementId: "G-0JKRL60S2P"
+  apiKey: "----------",
+  authDomain: "----------",
+  projectId: "----------",
+  storageBucket: "----------.firebasestorage.app",
+  messagingSenderId: "----------",
+  appId: "----------",
+  measurementId: "----------"
 };
 
 const app = initializeApp(firebaseConfig);
