@@ -1,3 +1,4 @@
+import './Home.css'
 import playBotao from '../../assets/iconePLAY.png'
 import infoBotao from '../../assets/iconeINFO.png'
 import gato from '../../assets/ElGaton.jpg'

@@ -1,0 +1,18 @@
+.player {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+}
+
+.player iframe {
+    border-radius: 12px;
+}
+
+.info {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

@@ -1,0 +1,73 @@
+.gato {
+    position: relative;
+
+}
+
+.imagemBanner {
+    mask-image: linear-gradient(to right, transparent, black 90%);
+    width: 100%;
+    -weblit-mask-image: linear-gradient(to right, transparent, black 90%);
+}
+
+.subtitle {
+    width: 80%;
+    bottom: 0;
+    padding-left: 6%;
+    position: absolute;
+}
+
+.subtitle p {
+    margin-bottom: 30px;
+    max-width: 680px;
+    font-size: 27px;
+    position: relative;
+    bottom: 100px;
+}
+
+.imagemSubtitle {
+    max-width: 820px;
+    margin-bottom: 32px;
+    width: 80%;
+    position: relative;
+    right: 100px;
+}
+
+.botoes {
+    margin-bottom: 48px;
+    display: flex;
+    gap: 18px;
+}
+
+.botoes .btn img {
+    width: 25px;
+    margin-right: 5px;
+}
+
+.btn.dark-btn img {
+    width: 36px;
+}
+
+.botoes .btn {
+    border-radius: 8px;
+    display: inline-flex;
+    align-items: center;
+    outline: 0;
+    padding: 8px 24px;
+    border: 0;
+    font-size: 18px;
+    font-weight: 740;
+    cursor: pointer;
+}
+
+.dark-btn {
+    background: rgba(101, 99, 99, 0.834);
+    color: white;
+}
+
+.btn:hover {
+    background: #f2ececbf;
+}
+
+.dark-btn:hover {
+    background: rgba(68, 66, 66, 0.848);
+}

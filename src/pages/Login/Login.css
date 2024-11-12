@@ -1,0 +1,101 @@
+.login {
+    height: 100vh;
+    background-image: linear-gradient(#0d0d0d7e, #0d0d0d7e), url(/netBanner.jpg);
+    padding: 22px 8%;
+}
+
+.logoLogin {
+    width: 150px;    
+}
+
+.form {
+    width: 100%;
+    max-width: 450px;
+    background: rgba(0, 0, 0, 0.80);
+    border-radius: 8px;
+    padding: 60px;
+    margin: auto;
+}
+
+.form h1 {
+    font-size: 30px;
+    font-weight: 580;
+    color: rgb(249, 245, 245);
+    margin-bottom: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form input::placeholder {
+    font-size: 16px;
+    font-weight: 580;
+    color: rgb(195, 180, 180);
+}
+
+.form input {
+    width: 100%;
+    height: 50px;
+    background: #333;
+    color: white;
+    margin: 12px 0;
+    border: 0;
+    outline: 0;
+    border-radius: 8px;
+    padding: 18px 24px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.form button {
+    width: 100%;
+    border: 0;
+    outline: 0;
+    padding: 18px;
+    background: #ba0912;
+    color: white;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: 580;
+    margin-top: 22px;
+    cursor: pointer;
+}
+
+.ajuda {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #e1d3d3;
+    font-size: 18px;
+}
+
+.opcoes {
+    display: flex;
+    align-items: center;
+    padding-top: 18px;
+    gap: 8px;
+}
+
+.opcoes input {
+    width: 24px;
+    height: 22px;
+}
+
+.mudar {
+    margin-top: 38px;
+    color: #8a7474;
+}
+.mudar p {
+    margin-bottom: 12px;
+}
+
+.mudar span {
+    margin-left: 8px;
+    color: rgb(239, 234, 234);
+    cursor: pointer;
+    font-weight: 580;
+}
+
+.mudar span:hover{
+    text-decoration: underline;
+}

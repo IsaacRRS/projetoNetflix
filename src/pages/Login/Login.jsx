@@ -1,4 +1,5 @@
 import logo from '../../assets/logo.png'
+import './Login.css'
 import React, { useState } from 'react'
 import { registro, login } from '../../firebase'
 

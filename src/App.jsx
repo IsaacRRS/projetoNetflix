@@ -1,8 +1,12 @@
+import { auth } from './firebase'
+import { onAuthStateChanged } from 'firebase/auth'
 import Login from './pages/Login/Login'
 import { Routes, Route, useNavigate } from 'react-router-dom'
 import Home from './pages/Home/Home'
 import React, { useEffect } from 'react'
 import Player from './pages/Player/Player'
+import { ToastContainer, toast } from 'react-toastify'
+import 'react-toastify/dist/ReactToastify.css';
 
 const App = () => {
 

@@ -1,4 +1,5 @@
 import { useParams } from 'react-router-dom'
+import './Player.css'
 import React, { useEffect, useState } from 'react'
 
 const Player = () => {
