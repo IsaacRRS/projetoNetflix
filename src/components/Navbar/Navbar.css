@@ -1,0 +1,80 @@
+.navbar {
+    z-index: 1;
+    color: white;
+    background-image: linear-gradient(180deg, rgba(0,0,0,0.6) 10%, transparent);
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    font-size: 14px;
+    width: 100%;
+    padding: 20px 7%;
+    background: rgba(22, 22, 22, 0.605);
+}
+
+.navbar-right {
+    gap: 34px;
+    display: flex;
+    align-items: center;
+}
+
+.navbar-right .icones {
+    cursor: pointer;
+    width: 25px;
+}
+
+.navbar-right .perfil {
+    border-radius: 5px;
+    margin-right: 8px;
+    width: 48px;
+}
+
+.navbar-left {
+    gap: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.navbar-left img {
+    width: 125px;
+}
+
+.navbar-left ul {
+    gap: 24px;
+    display: flex;
+    list-style: none;
+}
+
+.navbar-left ul li {
+    cursor: pointer;
+}
+
+.navbar-perfil {
+    gap: 10px;
+    position: relative;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.navbar .select {
+    border-radius: 8px;
+    text-decoration: underline;
+    z-index: 1;
+    display: none;
+    width: max-content;
+    position: absolute;
+    margin-top: 3px;
+    top: 100%;
+    right: 0;
+    background: rgb(33, 32, 32);
+    padding: 16px 24px;
+}
+
+.navbar-perfil:hover .select {
+    display: block;
+}
+
+.navbar .select p {
+    font-size: 19px;
+    cursor: pointer;
+}
