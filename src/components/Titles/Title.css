@@ -1,0 +1,39 @@
+.title {
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.title h2 {
+    margin-bottom: 8px;
+}
+
+.list {
+    display: flex;
+    gap: 10px;
+    overflow-x: scroll;
+    position: relative;
+    
+}
+
+.list::-webkit-scrollbar {
+    display: none;
+}
+
+.list img {
+    width: 260px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.ficha {
+    position: relative;
+}
+
+.ficha p {
+    position: absolute;
+    text-decoration: none;
+    top: 108px;
+    font-size: 18px;
+    left: 14px;
+    color: white;
+}
