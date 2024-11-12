@@ -6,6 +6,7 @@ import subtitleGato from '../../assets/subtitulo.png'
 import Navbar from '../../components/Navbar/Navbar'
 import React from 'react'
 import Title from '../../components/Titles/Title'
+import Footer from '../../components/Footer/Footer'
 
 const Home = () => {
 
